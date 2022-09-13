@@ -19,4 +19,4 @@
     - 8 Hours taken to Complete it.
 
 ### ScreenShot
-![Desktop](./ScreenShot/14.png)
+![Desktop](./Screenshot/14.png)
