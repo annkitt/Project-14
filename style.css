@@ -42,6 +42,25 @@ body {
     height: 1.7px;
     background-color: #4e3535;
 }
+@media screen and (max-width: 1462px) {
+    .line {
+       display: none;
+    }
+}
+@media screen and (max-width: 1260px){
+    .navbar .list{
+        margin-right: 60px;
+    }
+    .social-icons {
+       position:relative;
+       left: 650px;
+    }
+}
+@media screen and (max-width:1000px)and (min-width:800px) {
+    .navbar .list{
+        margin-right: -20px;
+    }
+}
 
 
 main{
@@ -98,7 +117,6 @@ main{
     color: #333333;
     display: flex;
     align-items: center;
-
 } 
 .heading div p {
     font-size: 1.5rem;
@@ -145,7 +163,39 @@ main{
 .social-icons img:nth-child(4) {
     width: 16px;
 }
-
+@media only screen and (max-width: 1393px) {
+    .heading {
+        left: 15;
+        top: 20px;
+    }
+    .heading h1 {
+        font-size: 4.6rem ;
+    }
+   
+    .social-icons {
+        gap: 35px;
+        top: 15px;
+    }
+    .right-container .btn {
+        position: absolute;
+        top:100;
+    }
+    .heading div {
+        margin-top: 20px;
+    } 
+}
+@media screen and (max-width:1080px) {
+    .right-container .btn {
+        position: absolute;
+        bottom: -30px;
+    }
+}
+@media screen and (max-width:1180px) and (min-width:800px){
+    .social-icons {    
+        position:relative;
+        left: 650px;
+    }
+}
 
 
 
